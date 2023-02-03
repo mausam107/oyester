@@ -22,6 +22,6 @@ const convertTime12to24 = time12h => {
     return `${hours}:${min}:${sec}`;
   };
   
-  var convertedTime = convertTime12to24("01:00:00 PM");
+  var convertedTime = convertTime12to24("01:00:56 PM");
 
   console.log(convertedTime);
